@@ -1,0 +1,14 @@
+{
+  "name": "nlw-rocketseat",
+  "version": "1.0.0",
+  "description": "nlw-4-rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Tiago",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
