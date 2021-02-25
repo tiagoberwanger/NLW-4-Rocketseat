@@ -26,14 +26,14 @@ class UserController {
     return res.status(201).json(user);
   }
 
-  // async getAll(_req: Request, res: Response) {
+  async getAll(_req: Request, res: Response) {
 
-  //   const usersRepository = getCustomRepository(UsersRepository);
+    const usersRepository = getCustomRepository(UsersRepository);
 
-  //   const users = await usersRepository.find();
+    const users = await usersRepository.find();
 
-  //   return res.status(201).json(users);
-  // }
+    return res.status(201).json(users);
+  }
 }
 
 export { UserController };
